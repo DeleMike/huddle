@@ -294,6 +294,10 @@ footer .g1 > img {
 }
 
 .copyright {
+   display: none;
+}
+
+.copyright-1 {
    text-align: center;
    font-size: 14px;
    color: var(--footer-color);
@@ -552,7 +556,10 @@ footer .g1 > img {
       font-family: 'Open Sans', 'san-serif';
       padding-top: 15px;
       padding-bottom: 40px;
+      display: block;
    }
 
-
+   .copyright-1 {
+      display: none;
+   }
 }
