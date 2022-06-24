@@ -142,6 +142,10 @@ header {
    display: flex;
 }
 
+#item0 {
+   display: none;
+}
+
 .item img {
    display: block;
    margin-left: auto;
@@ -409,6 +413,14 @@ footer .g1 > img {
       width: 100%;
    }
 
+   #item0 {
+      display: block;
+   }
+
+   #item1 {
+      display: none;
+   }
+
    .item .content h4 {
       text-align: center;
       padding: 25px;
@@ -450,7 +462,7 @@ footer .g1 > img {
       color: white;
       margin-top: 25px;
       margin-bottom: 25px;
-      width: 55vw;
+      width: 70vw;
       padding: 15px;
       border-radius: var(--radius);
       border: none;
